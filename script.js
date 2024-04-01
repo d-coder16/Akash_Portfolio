@@ -1,3 +1,12 @@
+/*=============== typing effect ===============*/
+var typed=new Typed(".typing",{
+    strings:["FulLStack Developer","","Student","","Problem Solver",""],
+  
+    typespeed:15,
+    BackSpeed:100,
+  loop:true
+  })
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),

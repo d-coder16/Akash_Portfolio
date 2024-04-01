@@ -1527,7 +1527,7 @@ font-weight: var(--font-medium);
   padding-left: 3rem;
 }
 .about__description{
-  font-size: var(--h2-font-size);
+  font-size: 18px;
   margin-bottom: 2rem;
 }
 .about__description::after{
