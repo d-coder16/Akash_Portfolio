@@ -589,14 +589,14 @@ nav{
   border: 3px solid var(--black-color);
   color: var(--black-color);
   padding: .30rem;
-  transition: border .4s, color .4s;
+  transition: border .4s ;
 }
 
 .button-ghost i {
   font-size: 2rem;
 }
 
-.button-ghost:hover {
+.button-ghost:hover{
   border: 3px solid var(--first-color);
 }
 
@@ -911,10 +911,10 @@ transition: scale ease .4s;
 }
 /*=============== CERTIFICATE ===============*/
 
-.portfolio__container{
+.certificate__container{
   position:relative;
 }
-.swiper-portfolio-icon{
+.swiper-certificate-icon{
   font-size: 50px;
   color: var(--first-color);
 }
@@ -922,7 +922,7 @@ transition: scale ease .4s;
   position: relative;
   margin-bottom: 20px;
 }
-.portfolio__content{
+.certificate__content{
   position: relative;
 }
 .certificate-title{
@@ -932,14 +932,14 @@ text-align: center;
 font-size: var(--font-medium);
 }
 
-.portfolio-img{
+.certificate-img{
   border: 5px solid white;
   margin: auto;
   height: 300px;
   scale: .9;
   transition: scale ease .5s;
 }
-.portfolio-img:hover{
+.certificate-img:hover{
   scale: 1;
 }
 
@@ -1239,7 +1239,7 @@ transition: bottom .4s,transform .4s,background-color .4s;
   max-width: 768px;
   margin:0 auto;
   }
-  .portfolio-img{
+  .certificate-img{
     height: 250px;
   }
  
@@ -1303,7 +1303,7 @@ transition: bottom .4s,transform .4s,background-color .4s;
   .dark-theme .contact__social-arrow{
     filter: none;
   }
-  .portfolio-img{
+  .certificate-img{
     height: 400px;
   }
   

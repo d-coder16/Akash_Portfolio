@@ -164,7 +164,7 @@ sr.reveal('.home__name,.home__info,.about__container,.section__title,.about__inf
 sr.reveal('.projects__card,#co',{interval:100})
 
 
-let swiper = new Swiper(".portfolio__container", {
+let swiper = new Swiper(".certificate__container", {
     cssMode: true,
     loop:true,
     navigation: {
