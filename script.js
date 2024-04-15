@@ -155,13 +155,16 @@ const sr=ScrollReveal({
     distance:'60px',
     duration:2500,
     delay:400,
-   reset:true //Animation repeat
-
+    reset:true //Animation repeat
+    
 })
 
 sr.reveal('.home__profile, .about__image ,.contact__mail,.section__subtitle,#wo',{origin:'right'})
 sr.reveal('.home__name,.home__info,.about__container,.section__title,.about__info, .contact__social,.contact__data,.section__title-1,#ed',{origin:'left'})
 sr.reveal('.projects__card,#co',{interval:100})
+
+
+/*=============== CERTIFICATE SCROLL ===============*/
 
 
 let swiper = new Swiper(".certificate__container", {
